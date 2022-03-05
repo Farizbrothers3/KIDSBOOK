@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	
+	<title>KidsBook</title>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="kwitter.js"></script>
+</head>
+<body>
+
+
+	<section id="app">
+        <h1> Apps & Games </h1>
+        <div class="line"> </div>
+
+        <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/yfnvx9yHJ-MvxNiNd8IBsytTYRs0v6LiBlFNwYZGm44/embed"></iframe>
+
+        <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/EF6fWt_h9x11s5SiFr2U6j5SJ1_CBA5nxQXDgUqzZTk/embed"></iframe>
+
+    </section>
+
+    <section id="game">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a herf="https://studio.code.org/projects/gamelab/Aw9fTN4X8fDEyP3ZR7Jg4D73Ts-ii3pCuiPHLszVCVQ" target="_blank">
+                            <img src="pikachu.png" class="img-responsive">
+
+                        </a>
+
+
+                        <div class="carousel-content">
+                            <p>games & apps</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center> <a href="https://studio.code.org/projects/spritelab/m4bATrt4Vgq1SDdvUKQ8N5hJuqEocNMlrp_uaIelEM8" target="_blank">
+
+                            <img src="race game" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>wack the godzilla</p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+        </div>
+	
+<center>
+	<h1 class="header">	
+		KidsBook	<sup>
+	<img src="m2.png">
+	</sup>
+</h1>
+
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+
+	<img src="logo.png" class="logo">
+		<h3 >See what is happening in the world right now</h3>
+
+		<h4 >Join KidsBook today</h4>
+		
+		<div class="form-group">
+		  <label >User Name:</label>
+		 <input type="text" id="user_name" class="form-control" placeholder="User Name">
+		</div>
+
+		<button id="login_button" class="btn btn-primary" onclick="addUser()">Log in</button>
+		<br><br>
+	</div>
+</center>
+
+</body>
+</html>
